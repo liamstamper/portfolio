@@ -30,7 +30,7 @@ li {
     position: relative;
     padding: 15px 0;
 }
-a {
+a.header-elements {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -39,14 +39,14 @@ a {
     padding: 15px 20px;
     position: relative;
 }
-a:after {
+a.header-elements:after {
     content: "";
     background-color: black;
     position: absolute;
     height: 2px; width: 0; left: 0; bottom: 0px;
     transition: 0.25s;
 }
-a:hover:after {
+a.header-elements:hover:after {
     width: 90%;
 }
 
@@ -54,6 +54,10 @@ a:hover:after {
 /*About*/
 .aboutme-container{
     padding-top:200px;    
+}
+.hi-text{
+    padding-left:570px;
+    font-size:30px;
 }
 .myname{
     font-size:150px;
@@ -68,34 +72,34 @@ a:hover:after {
 .projects-container{
     padding-top:10px;
 }
-.projects-title{
-    font-size:60px;
-    padding-left: 15px;
-}
-.projects-subtitles{
+.projects-titles{
     font-size:30px;
-    padding-top:10px; padding-left:25px; padding-bottom: 14px;
+    padding-top:10px; padding-left:45px; 
 }
 .projects-about{
     font-size: 19px;
-    padding-left:30px; padding-bottom: 20px;;
+    padding-left:50px; padding-bottom: 20px;
     max-width: 800px;
 }
 .projects-demo-screen{
-    width: 900px; height:600px;
-    margin-left: 150px; 
-    background-color:lightslategrey;
+    width: 1200px; height:600px;
+    margin-left: 120px; 
+    background-color:rgb(194, 207, 221);
 }
 
-
-
-
-
-
-/*Resume*/
-
-
-
-
+/*Resume links to my resume site*/
 
 /*Contact*/
+.contact-container{
+    padding-top:10px;
+}
+.contact-titles{
+    font-size:25px;
+    padding-top:10px; padding-left:45px; 
+}
+a.email, a.git{
+    font-size:24px;
+    padding-left:20px;
+    text-decoration: underline;
+    color:black;
+}
