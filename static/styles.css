@@ -1,0 +1,88 @@
+body{
+
+}
+@media (max-width: 768px) {
+    li, a {
+        display: block;
+        padding: 10px 20px;
+    }
+    a:hover {
+        width: auto;
+        left: auto;
+        text-decoration: none;
+    }
+    .aboutme-container {
+        padding-top: 50px;
+    }
+    .myname {
+        font-size: 20px;
+    }
+    .aboutme-paragraph {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+}
+
+/*Header*/
+li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+a:after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 2px; width: 0; left: 0; bottom: -10px;
+    transition: 0.3s;
+}
+a:hover:after {
+    width: 80%;
+}
+/*About*/
+.aboutme-container{
+    padding-top:200px;    
+}
+.myname{
+    font-size:150px;
+}
+.aboutme-paragraph{
+    font-size: 19px;
+    padding-left:30px;
+    max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Projects*/
+
+
+
+
+
+
+
+/*Resume*/
+
+
+
+
+
+/*Contact*/
