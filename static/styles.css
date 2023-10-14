@@ -92,14 +92,23 @@ a.header-elements:hover:after {
 /*Contact*/
 .contact-container{
     padding-top:10px;
+
 }
-.contact-titles{
-    font-size:25px;
-    padding-top:10px; padding-left:45px; 
+.contact-header-text{
+    padding-left:25px; 
+    font-size: 28px;
+}
+.contact-method-titles{
+    font-size:23px;
+    padding-top:20px; padding-left:55px; 
+}
+.contactpage-images{
+    width: 30px; height: 30px;
+    padding-left: 20px; 
 }
 a.email, a.git{
-    font-size:24px;
-    padding-left:20px;
+    font-size:22px;
+    padding-left:10px;
     text-decoration: underline;
     color:black;
 }
