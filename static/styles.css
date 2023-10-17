@@ -23,7 +23,6 @@ body{
     }
 }
 
-
 /*Header*/
 li {
     display: table-cell;
@@ -87,8 +86,13 @@ a.header-elements:hover:after {
     background-color:rgb(194, 207, 221);
 }
 
-/*Resume links to my resume site*/
+/*Resume*/
+.resume-container{
 
+}
+.resume-image{
+    
+}
 /*Contact*/
 .contact-container{
     padding-top:10px;
