@@ -75,6 +75,10 @@ a.header-elements:hover:after {
     font-size:30px;
     padding-top:10px; padding-left:45px; 
 }
+.projects-subtitles{
+    font-size:20px;
+    padding-top:10px; padding-left:45px; 
+}
 .projects-about{
     font-size: 19px;
     padding-left:50px; padding-bottom: 20px;
@@ -82,17 +86,14 @@ a.header-elements:hover:after {
 }
 .projects-demo-screen{
     width: 1200px; height:600px;
-    margin-left: 120px; 
+    margin-left: 30px; 
     background-color:rgb(194, 207, 221);
 }
 
 /*Resume*/
-.resume-container{
 
-}
-.resume-image{
-    
-}
+
+
 /*Contact*/
 .contact-container{
     padding-top:30px;
