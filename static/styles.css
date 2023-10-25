@@ -72,23 +72,25 @@ a.header-elements:hover:after {
     padding-top:10px;
 }
 .projects-titles{
-    font-size:30px;
+    font-size:34px;
     padding-top:10px; padding-left:45px; 
 }
+.seatstock-link a{
+    text-decoration: underline;
+    color:black;
+    font-size:20px;
+}
+
 .projects-subtitles{
     font-size:20px;
     padding-top:10px; padding-left:45px; 
 }
 .projects-about{
     font-size: 19px;
-    padding-left:50px; padding-bottom: 20px;
+    padding-left:20px; padding-bottom: 20px;
     max-width: 800px;
 }
-.projects-demo-screen{
-    width: 1200px; height:600px;
-    margin-left: 30px; 
-    background-color:rgb(194, 207, 221);
-}
+
 
 /*Resume*/
 
