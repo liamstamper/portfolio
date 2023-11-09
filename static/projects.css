@@ -1,0 +1,54 @@
+body{
+    overflow-y: auto;
+}
+/*Header*/
+li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+a.header-elements {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+a.header-elements:after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 2px; width: 0; left: 0; bottom: 0px;
+    transition: 0.25s;
+}
+a.header-elements:hover:after {
+    width: 90%;
+}
+
+/*Projects*/
+.projects-container{
+    padding-top:10px;
+}
+.projects-titles{
+    font-size:34px;
+    padding-top:10px; padding-left:24px; 
+}
+.seatstock-link:link{
+    text-decoration: underline;
+    color:black;
+    font-size:35px;
+}
+.seatstock-link:visited{
+    color:black;
+}
+.projects-subtitles{
+    font-size:20px;
+    padding-top:10px; padding-left:45px; 
+}
+.projects-about{
+    font-size: 19px;
+    padding-left:24px; padding-bottom: 20px;
+    max-width: 800px;
+}
