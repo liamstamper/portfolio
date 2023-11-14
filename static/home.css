@@ -2,26 +2,32 @@ body{
     overflow-y: auto;
 }
 .main-container::before {
-    margin-top:530px;
+    margin-top:585px;
     content: '';
     position: absolute;
     left: 30%;  /* Center the line */
     top: 0;
     bottom: 0;
     height:100%;
-    width: 1px;  /* Adjust the width as needed */
+    width: .25px;  /* Adjust the width as needed */
     background-color: lightgrey;  /* Light grey color */
     z-index: -1;  /* Place it behind the content */
-    text-decoration: dashed;
+    opacity: .5;
 }
 
 /*Header*/
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none; /* Removes bullet points from list */
+    padding: 0; /* Removes default padding */
+    margin: 0;
+}
 li {
     display: table-cell;
     position: relative;
     padding: 15px 0;
 }
-
 a.header-elements {
     color: black;
     text-transform: uppercase;
@@ -30,6 +36,7 @@ a.header-elements {
     display: inline-block;
     padding: 15px 20px;
     position: relative;
+
 }
 a.header-elements:after {
     content: "";
@@ -40,6 +47,10 @@ a.header-elements:after {
 }
 a.header-elements:hover:after {
     width: 90%;
+}
+.social-media-container{
+    margin-left:auto;
+    padding-right:10px;
 }
 .header-img{
     width: 40px;
