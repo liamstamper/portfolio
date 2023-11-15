@@ -45,11 +45,11 @@ a.header-elements:hover:after {
 
 /*Projects*/
 .projects-container{
-    padding-top:10px;
+    padding-top:80px;
 }
 .projects-titles{
     font-size:34px;
-    padding-top:10px; padding-left:24px; 
+    padding-top:10px; padding-left:24px; padding-bottom:5px;
 }
 .seatstock-link:link{
     text-decoration: underline;
