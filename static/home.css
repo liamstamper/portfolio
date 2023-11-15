@@ -1,132 +1,135 @@
-body{
+/* General Body Styles */
+body {
     overflow-y: auto;
 }
-.main-container::before { /*verical grey line*/
-    margin-top:585px;
-    content: '';
-    position: absolute;
-    left: 30%;  
-    top: 0;
+
+/* Main Container */
+.main-container::before {
+    background-color: lightgrey;
     bottom: 0;
-    height:100%;
-    width: .25px;  
-    background-color: lightgrey;  
-    z-index: -1;  
+    content: '';
+    height: 100%;
+    left: 30%;
+    margin-top: 585px;
     opacity: .5;
+    position: absolute;
+    top: 0;
+    width: .25px;
+    z-index: -1;
 }
 
-/*Header*/
-ul{
-    display: flex;
+/* Header Styles */
+ul {
     align-items: center;
-    list-style: none; 
-    padding: 0; 
+    display: flex;
+    list-style: none;
     margin: 0;
+    padding: 0;
 }
+
 li {
     display: table-cell;
-    position: relative;
     padding: 15px 0;
+    position: relative;
 }
+
 a.header-elements {
     color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.15em;
     display: inline-block;
+    letter-spacing: 0.15em;
     padding: 15px 20px;
     position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
-}
 a.header-elements:after {
-    content: "";
     background-color: black;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 0;
     position: absolute;
-    height: 2px; width: 0; left: 0; bottom: 0px;
     transition: 0.25s;
+    width: 0;
 }
+
 a.header-elements:hover:after {
     width: 90%;
 }
-.social-media-container{
-    margin-left:auto;
-    padding-right:10px;
-}
-.header-img{
-    width: 40px;
-    height:40px;
+
+.social-media-container {
+    margin-left: auto;
+    padding-right: 10px;
 }
 
-/*Home Page*/
-.aboutme-container{
-    padding-top:100px;    
+.header-img {
+    height: 40px;
+    text-decoration: none;
+    width: 40px;
 }
-.myname{
-    font-size:100px;
+
+a.your-social-media-link {
+    text-decoration: none;
+}
+
+/* Home Page Styles */
+.aboutme-container {
+    padding-top: 100px;
+}
+
+.myname {
+    font-size: 100px;
     padding-left: 5%;
 }
 
-.aboutme-paragraph{
+.aboutme-paragraph {
     font-size: 19px;
-    padding-left:5%;
+    max-width: 600px;
+    padding-left: 5%;
+}
+
+.experience-title, .interest-title {
+    border-bottom: 1px solid black;
+    font-size: 45px;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.experience-title {
+    width: 210px;
+}
+
+.interest-title {
+    width: 160px;
+}
+
+.experience-container, .interest-block {
+    align-content: center;
+    align-items: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 50px;
+    margin-left: 33%;
     max-width: 600px;
 }
-.experience-title{
-    margin-top:100px; 
-    font-size:45px;
-    border-bottom: 1px solid black;
-    margin-left:10%;
-    width:210px;
-}
-.experience-container{
-    align-items: center;
-    align-content: center;
-    max-width:100%
-}
-year{
+
+year, interest {
     font-size: 34px;
 }
-.experience-block{
-    display:inline-block;
-    margin:50px;
-    font-size:18px;
-    max-width: 600px;
-    margin-left:33%;
-}
 
-.interest-title{
-    margin-top:50px; 
-    font-size:45px;
-    border-bottom: 1px solid black;
-    margin-left:10%;
-    width:160px;
-    
-}
-interest{
-    font-size: 32px;
-}
-.interest-block{
-    display:inline-block;
-    margin:50px;
-    font-size:18px;
-    max-width: 600px;
-    margin-left:33%
-}
-
-
-/*Footer*/
-.divider{
-    background-color:rgb(222, 222, 222);
-    width:100%; height:.5px;
+/* Footer Styles */
+.divider {
+    background-color: rgb(222, 222, 222);
+    height: .5px;
     margin-top: 700px;
-}
-.footer-container{
-    margin-top:50px;
-}
-.footer-titles{
-
-}
-.footer-elements{
-
+    width: 100%;
 }
 
+.footer-container {
+    margin-top: 50px;
+}
+
+.footer-titles, .footer-elements {
+    /* If you have specific styles for these classes, add them here */
+}

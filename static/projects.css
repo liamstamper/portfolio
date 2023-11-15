@@ -1,70 +1,78 @@
-body{
+/* General Body Styles */
+body {
     overflow-y: auto;
 }
-/*Header*/
-ul{
-    display: flex;
+
+/* Header Styles */
+ul {
     align-items: center;
-    list-style: none; /* Removes bullet points from list */
-    padding: 0; /* Removes default padding */
+    display: flex;
+    list-style: none;
     margin: 0;
+    padding: 0;
 }
+
 li {
     display: table-cell;
-    position: relative;
     padding: 15px 0;
+    position: relative;
 }
+
 a.header-elements {
     color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.15em;
     display: inline-block;
+    letter-spacing: 0.15em;
     padding: 15px 20px;
     position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
-}
 a.header-elements:after {
-    content: "";
     background-color: black;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 0;
     position: absolute;
-    height: 2px; width: 0; left: 0; bottom: 0px;
     transition: 0.25s;
+    width: 0;
 }
+
 a.header-elements:hover:after {
     width: 90%;
 }
-.social-media-container{
-    margin-left:auto;
-    padding-right:10px;
-}
-.header-img{
-    width: 40px;
-    height:40px;
+
+.social-media-container {
+    margin-left: auto;
+    padding-right: 10px;
 }
 
-/*Projects*/
-.projects-container{
-    padding-top:80px;
+.header-img {
+    height: 40px;
+    text-decoration: none;
+    width: 40px;
 }
-.projects-titles{
-    font-size:34px;
-    padding-top:10px; padding-left:24px; padding-bottom:5px;
+
+a.your-social-media-link {
+    text-decoration: none;
 }
-.seatstock-link:link{
-    text-decoration: underline;
-    color:black;
-    font-size:35px;
+
+/* Projects Section */
+.projects-container {
+    padding-top: 80px;
 }
-.seatstock-link:visited{
-    color:black;
+
+.projects-titles {
+    font-size: 34px;
+    padding-bottom: 5px;
+    padding-left: 24px;
+    padding-top: 10px;
 }
-.projects-subtitles{
-    font-size:20px;
-    padding-top:10px; padding-left:45px; 
-}
-.projects-about{
+
+.projects-about {
     font-size: 19px;
-    padding-left:24px; padding-bottom: 20px;
     max-width: 800px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 }
