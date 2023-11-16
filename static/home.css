@@ -74,7 +74,7 @@ a.your-social-media-link {
 }
 
 /* Home Page Styles */
-a.links:after{
+a.links{
     text-decoration: none;
 }
 .aboutme-container {
