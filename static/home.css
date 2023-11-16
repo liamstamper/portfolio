@@ -107,12 +107,12 @@ a.links{
     width: 160px;
 }
 
-.experience-container, .interest-block {
+.experience-block, .interest-block {
     align-content: center;
     align-items: center;
     display: inline-block;
-    font-size: 18px;
-    margin: 50px;
+    font-size: 19px;
+    margin: 30px;
     margin-left: 33%;
     max-width: 600px;
 }
