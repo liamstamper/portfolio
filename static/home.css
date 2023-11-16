@@ -74,6 +74,9 @@ a.your-social-media-link {
 }
 
 /* Home Page Styles */
+a.links:after{
+    text-decoration: none;
+}
 .aboutme-container {
     padding-top: 100px;
 }
