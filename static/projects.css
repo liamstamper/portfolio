@@ -59,8 +59,12 @@ a.your-social-media-link {
 }
 
 /* Projects Section */
+.main-container{
+    padding-top:70px;
+}
+
 .projects-container {
-    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .projects-titles {
