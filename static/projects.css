@@ -73,11 +73,17 @@ a.your-social-media-link {
     padding-left: 24px;
     padding-top: 10px;
 }
+.demo-images{
+    width:85%;
+    max-width: 900px;
+    margin-left:24px;
+    height:600px;
+    border:1px solid lightgrey
+}
 
 .projects-about {
     font-size: 19px;
     max-width: 800px;
-    padding-bottom: 20px;
     padding-left: 24px;
 }
 
