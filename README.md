@@ -45,7 +45,7 @@ _November 2023 - Present_
 
 ### This Portfolio Site
 - Showcasing my skills in HTML/CSS.
-- View the site here [liamstamper.com](liamstamper.com)
+- View the site here [liamstamper.com](https://liamstamper.com/)
 
 ## Interests
 
