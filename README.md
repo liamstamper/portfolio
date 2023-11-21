@@ -1,6 +1,6 @@
 # William (Liam) Stamper's Portfolio
-
-Welcome to my professional portfolio on GitHub! Here, you will find the culmination of my work as a Computer Science student at the University of Iowa, my projects, and the experiences that have shaped my journey as a developer.
+## Live site: [liamstamper.com](https://liamstamper.com)
+Welcome to my professional portfolio on GitHub! Here, you will find the culmination of my work as a Computer Science student at the University of Iowa, my projects, and the experiences that have shaped my journey as a developer.  
 
 ## Education
 
