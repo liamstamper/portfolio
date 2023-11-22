@@ -121,18 +121,7 @@ year, interest {
     font-size: 34px;
 }
 
-/* Footer Styles */
-.divider {
-    background-color: rgb(222, 222, 222);
-    height: .5px;
-    margin-top: 700px;
-    width: 100%;
-}
-
-.footer-container {
-    margin-top: 50px;
-}
-
-.footer-titles, .footer-elements {
-    /* If you have specific styles for these classes, add them here */
+a {
+    color: black;
+    text-decoration: underline;
 }

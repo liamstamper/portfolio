@@ -90,6 +90,7 @@ a.your-social-media-link {
     padding-left: 24px;
 }
 
-a.links{
-    text-decoration: none;
+a {
+    color: black;
+    text-decoration: underline;
 }
