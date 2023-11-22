@@ -1,6 +1,6 @@
 # William (Liam) Stamper's Portfolio
-
-Welcome to my professional portfolio on GitHub! Here, you will find the culmination of my work as a Computer Science student at the University of Iowa, my projects, and the experiences that have shaped my journey as a developer.
+## Live site: [liamstamper.com](https://liamstamper.com)
+Welcome to my professional portfolio on GitHub! Here, you will find the culmination of my work as a Computer Science student at the University of Iowa, my projects, and the experiences that have shaped my journey as a developer.  
 
 ## Education
 
@@ -41,12 +41,11 @@ _August 2023 – November 2023_
 ### COVID-19 Data Visualizer
 _November 2023 - Present_
 - An application to visualize and compare COVID-19 trends using Python, Flask, and Plotly.
-- Visit the [repo](github.com/liamstamper/covid19-visualizer) for more details.
+- Visit the [repo](https://github.com/liamstamper/covid19-visualizer) for more details.
 
 ### This Portfolio Site
 - Showcasing my skills in HTML/CSS.
-- View the site here [liamstamper.com](liamstamper.com)
-
+- View the site here [liamstamper.com](http://liamstamper.com)
 ## Interests
 
 - **Web Development:** Passionate about building scalable web applications. Looking to expand my experience with large-scale industry projects.
