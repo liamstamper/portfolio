@@ -1,6 +1,7 @@
 /* General Body Styles */
 body {
     overflow-y: auto;
+    line-height: 1.4;
 }
 
 /* Header Styles */
@@ -60,18 +61,20 @@ a.your-social-media-link {
 
 /* Projects Section */
 .main-container{
-    padding-top:70px;
+    padding-top:50px;
 }
 
 .projects-container {
     padding-bottom: 70px;
+    padding-left: 1%;
 }
 
 .projects-titles {
-    font-size: 34px;
+    font-size: 36px;
     padding-bottom: 5px;
     padding-left: 24px;
     padding-top: 10px;
+    max-width: 600px;
 }
 .demo-images{
     width:85%;
@@ -81,16 +84,19 @@ a.your-social-media-link {
     margin-bottom:10px;
     height:auto;
     max-height: 800px;
-    border:1px solid lightgrey
+    border:1px solid lightgrey;
 }
 
 .projects-about {
     font-size: 19px;
-    max-width: 800px;
+    max-width: 1000px;
     padding-left: 24px;
 }
 
 a {
     color: black;
     text-decoration: underline;
+}
+b {
+    font-size:25px;
 }
