@@ -8,16 +8,11 @@
     <title>Liam Stamper</title>
 </head>
 <body>
-    <ul>
-        <li>
-            <a class="header-elements" href="index.html">About</a>
-        </li>
-        <li>
-            <a class="header-elements" href="projects.html">Projects</a>
-        </li>
-        <li>
-            <a class="header-elements"  target="_blank" href="static/images/Liam Stamper (1).pdf">Resume</a>
-        </li>
+    <!-- Navigation Menu -->
+    <ul class="navigation-menu">
+        <li><a class="header-elements" href="index.html">About</a></li>
+        <li><a class="header-elements" href="projects.html">Projects</a></li>
+        <li><a class="header-elements" target="_blank" href="static/images/Liam Stamper (1).pdf">Resume</a></li>
         <li class="social-media-container">
             <a class="your-social-media-link" target="_blank" href="https://github.com/liamstamper">
                 <img src="static/images/gitlogo.png" alt="GitHub Profile" class="header-img"/>
@@ -27,61 +22,72 @@
             </a>
         </li>
     </ul>
+
+    <!-- Main Content Container -->
     <div class="main-container">
+        <!-- Project: SeatStock -->
         <div class="projects-container" id="seatstock">
             <div class="projects-titles">SeatStock - React.js, Tailwind, Python, MySQL (In Progress)</div>
-            <div class="projects-about">  
+            <div class="projects-about">
                 <b>Project Scope:</b> Co-founded and served as the Lead Frontend Developer for a student ticket sales startup.<br>
 
-                <b>Achievements:</b> <br>-Authored over 5000 lines of advanced React.js code, seamlessly integrating Tailwind CSS for a sleek and responsive user interface. <br>
-                -Contributed expertise to backend management, database development, web hosting, and Docker containerization, ensuring a scalable and reliable platform. <br>
+                <b>Achievements:</b> <br>
+                - Authored over 5000 lines of advanced React.js code, seamlessly integrating Tailwind CSS for a sleek and responsive user interface. <br>
+                - Contributed expertise to backend management, database development, web hosting, and Docker containerization, ensuring a scalable and reliable platform. <br>
 
                 <b>Future Direction:</b>
-                After launch I will be continuously improving SeatStock's frontend for enhanced user experience, while exploring opportunities to optimize backend processes and expand the platform's reach <br>
+                After launch, I will be continuously improving SeatStock's frontend for enhanced user experience, while exploring opportunities to optimize backend processes and expand the platform's reach. <br>
 
                 <b>Repo:</b>
-                This site is in the final stages of launch and a demo video will soon be provided!
+                This site is in the final stages of launch, and a demo video will soon be provided!
             </div>
         </div>
+
+        <!-- Project: Covid-19 Data Visualizer -->
         <div class="projects-container" id="covid19-visualizer">
             <div class="projects-titles">Covid-19 Data Visualizer - Python, HTML, CSS (In Progress)</div>
             <img src="static/images/coviddemo.png" class="demo-images">
             <div class="projects-about">
                 <b>Project Scope:</b> Designed and implemented a web application utilizing Flask and Plotly to visualize <a target="_blank" class="links" href="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv">John Hopkins University's Covid-19 dataset.</a> <br>
 
-                <b>Achievements:</b><br> -Developed a comparative analysis feature, enabling users to contrast COVID-19 trends across different countries and regions.<br>
+                <b>Achievements:</b><br>
+                - Developed a comparative analysis feature, enabling users to contrast COVID-19 trends across different countries and regions.<br>
 
                 <b>Impact:</b><br>
                 Provided a valuable resource for users to gain insights into the pandemic's data and trends, aiding in informed decision-making.<br>
 
                 <b>Future Direction:</b>
                 Ongoing work includes enhancing the application's visualization capabilities, incorporating additional data sources, and expanding features to provide more comprehensive pandemic insights. <br>
+
                 <b>Repo:</b>
                 <a target="_blank" class="links" href="https://github.com/liamstamper/covid19-visualizer">github.com/liamstamper/covid19-visualizer</a>
-   
             </div>
         </div>
-        <div class="projects-container" id="covid19-visualizer">
+
+        <!-- Project: Art and Artifact Cataloger -->
+        <div class="projects-container" id="cataloger">
             <div class="projects-titles">Art and Artifact Cataloger | PyTorch, Python, Object Detection</div>
             <div class="projects-about">
                 <b>Project Scope:</b>  Lead Developer for an art and artifact cataloging project using PyTorch object detection. <br>
 
-                <b>Achievements:</b><br> -Implemented custom object detection models to identify and localize art pieces within images.<br>
-                -Designed and integrated attribute recognition modules for automatic metadata extraction, including artist, title, date, and more.
-                -Developed a user-friendly web-based UI for art collectors and enthusiasts to catalog and manage their collections.<br>
-                -Ensured seamless integration of the object detection model, attribute recognition, and database management with the UI.<br>
+                <b>Achievements:</b><br>
+                - Implemented custom object detection models to identify and localize art pieces within images.<br>
+                - Designed and integrated attribute recognition modules for automatic metadata extraction, including artist, title, date, and more.<br>
+                - Developed a user-friendly web-based UI for art collectors and enthusiasts to catalog and manage their collections.<br>
+                - Ensured seamless integration of the object detection model, attribute recognition, and database management with the UI.<br>
 
-                <b>Impact:</b>
+                <b>Impact:</b><br>
                 Provided a valuable resource for users to gain insights into the pandemic's data and trends, aiding in informed decision-making.<br>
 
                 <b>Future Direction:</b>
                 Ongoing work includes enhancing the application's visualization capabilities, incorporating additional data sources, and expanding features to provide more comprehensive pandemic insights. <br>
-                <b>Repo:</b>
-                A demo is not yet available but I look forward to providing on in the near future!
 
-                
+                <b>Repo:</b>
+                A demo is not yet available, but I look forward to providing one in the near future!
             </div>
         </div>
+
+        <!-- Project: Portfolio Site -->
         <div class="projects-container" id="portfolio">
             <div class="projects-titles">Portfolio Site - HTML, CSS</div>
             <div class="projects-about">
