@@ -12,13 +12,15 @@ _Bachelor's Degree in Computer Science, Minor in Mathematics_
 *August 2021 – Anticipated December 2024*
 
 ### Coursework
+- Algorithms
 - Data Structures
+- Computer Science I-II
 - Discrete Structures
 - Calculus I-III
 - Matrix Algebra
-- Computer Science I-II
-- Algorithms (in-progress)
-- Software Development (in-progress)
+- Software Development
+- Numerical Methods (in-progress)
+- Networks and their Applications (in-progress)
 
 ### Extracurricular Activities
 - Association for Computing Machinery (ACM)
@@ -26,10 +28,17 @@ _Bachelor's Degree in Computer Science, Minor in Mathematics_
 - Spanish Club Member
 
 ## Experience
+### Undergraduate Research Assistant
+_The University of Iowa, Iowa City, IA (January 2024 – Present)_
+- Utilized Python and Fiji (ImageJ) software.
+- Automated the counting and analysis of cells within bone marrow scans.
+- Enhanced research accuracy and efficiency.
+
+
 
 ### Full Stack Developer Internship
 _Quality Manufacturing, West Des Moines, IA (May 2022 – August 2022)_
-- Developed over 5 dynamic form applications.
+- Developed over 5 dynamic form applications utilizing Html and JavaScript.
 - Participated in an intensive web development training program.
 - Collaborated within a team of 5, serving over 10 clients.
 
@@ -41,7 +50,7 @@ _August 2023 – November 2023_
 - Lead Frontend Developer using React.js and Tailwind CSS.
 
 
-### COVID-19 Data Visualizer
+### Covid-19 Data Visualizer
 _November 2023 - Present_
 - An application to visualize and compare COVID-19 trends using Python, Flask, and Plotly.
 - Visit the [repo](https://github.com/liamstamper/covid19-visualizer) for more details.
