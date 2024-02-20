@@ -76,14 +76,15 @@ a.your-social-media-link {
     padding-top: 10px;
     max-width: 600px;
 }
+
 .demo-images{
     width:85%;
-    max-width: 900px;
+    max-width: 750px;
     margin-left:24px;
     margin-top:10px;
     margin-bottom:10px;
     height:auto;
-    max-height: 800px;
+    max-height: 600px;
     border:1px solid lightgrey;
 }
 
