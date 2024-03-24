@@ -1,0 +1,39 @@
+```
+Following your instructor's advice, we'll start by creating a basic chat application that uses UDP for communication between two clients, Alice and Bob. This application will consist of a single Python script, chat.py, that can be used to both send and receive messages. The script will be run in two separate terminals with different configurations to simulate two users communicating with each other.
+
+Key Points:
+UDP Sockets: The application will use UDP sockets for sending and receiving messages because UDP is a connectionless protocol, making it suitable for simple messaging applications where delivery guarantees and order are not critical.
+Listening and Sending Ports: Each instance of the application will have a listening port (to receive messages) and a target address and port (to send messages).
+Steps:
+Parse Command-Line Arguments: The script will accept command-line arguments for its own listening port, its nickname, and the target hostname and port for sending messages.
+Setup UDP Socket: The script will create a UDP socket and bind it to the listening port for receiving messages.
+Receive Messages: Continuously listen for incoming messages on the listening port and print them to the console.
+Send Messages: Allow the user to input messages in the terminal and send them to the target address and port.
+Let's start by implementing the basic structure of this chat application in Python.
+
+I've created a basic structure for the chat application based on your instructor's advice. The application is designed to work with UDP sockets, allowing two users to exchange messages. Here's a brief overview of how it works:
+
+The chat application accepts command-line arguments specifying its own listening port, the user's nickname, and the target hostname and port for sending messages.
+It sets up a UDP socket and binds it to the provided listening port to receive messages.
+It uses a separate thread to continuously listen for incoming messages and print them to the console.
+The main thread allows the user to type and send messages to the specified target address and port.
+To use this script in practice, you would run it from the command line, providing the appropriate arguments. For instance, to simulate the scenario provided by your instructor:
+
+In one terminal, you would start the application for Alice with:
+
+shell
+Copy code
+python chat.py 5000 alice localhost:6000
+This sets up Alice to listen for messages on port 5000 and send messages to Bob on port 6000.
+
+In another terminal, you would start the application for Bob with:
+
+shell
+Copy code
+python chat.py 6000 bob localhost:5000
+This configures Bob to listen on port 6000 and send messages to Alice on port 5000.
+
+The provided code is a template and does not include actual command-line argument parsing with sys.argv since it's meant for illustration. To make it fully functional, you would replace the simulated args array with sys.argv and execute the main function with these arguments. This setup would allow Alice and Bob to exchange messages through their respective terminals.
+
+If you need further assistance to make this code runnable or have any questions, please let me know! ​
+```

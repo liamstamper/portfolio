@@ -1,0 +1,126 @@
+/* General Body Styles */
+body {
+    overflow-y: auto;
+}
+
+/* Main Container */
+.main-container::before {
+    background-color: lightgrey;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    left: 30%;
+    margin-top: 585px;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    width: .25px;
+    z-index: -1;
+}
+
+/* Header Styles */
+ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: table-cell;
+    padding: 15px 0;
+    position: relative;
+}
+
+a.header-elements {
+    color: black;
+    display: inline-block;
+    letter-spacing: 0.15em;
+    padding: 15px 20px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.header-elements:after {
+    background-color: black;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: 0.25s;
+    width: 0;
+}
+
+a.header-elements:hover:after {
+    width: 90%;
+}
+
+.social-media-container {
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.header-img {
+    height: 40px;
+    text-decoration: none;
+    width: 40px;
+}
+
+a.your-social-media-link {
+    text-decoration: none;
+}
+
+/* Home Page Styles */
+a.links{
+    text-decoration: none;
+}
+.aboutme-container {
+    padding-top: 100px;
+}
+
+.myname {
+    font-size: 100px;
+    padding-left: 5%;
+}
+
+.aboutme-paragraph {
+    font-size: 19px;
+    max-width: 600px;
+    padding-left: 5%;
+}
+
+.experience-title, .interest-title {
+    border-bottom: 1px solid black;
+    font-size: 45px;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.experience-title {
+    width: 210px;
+}
+
+.interest-title {
+    width: 160px;
+}
+
+.experience-block, .interest-block {
+    align-content: center;
+    align-items: center;
+    display: inline-block;
+    font-size: 19px;
+    margin: 30px;
+    margin-left: 33%;
+    max-width: 600px;
+}
+
+year, interest {
+    font-size: 34px;
+}
+
+a {
+    color: black;
+}
